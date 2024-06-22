@@ -23,23 +23,19 @@
   text-align: right;
 }
 
-button{
-  margin-top: 35px;
+a{
+  margin-top: 25px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
   padding: 10px 20px;
-  background-color: transparent;
   border: 2px solid rgba(22,138,173,1);
   border-radius: 4px;
 }
-button:hover{
+
+a:hover{
   background-color: rgba(22,138,173,1);
-}
-button:hover a{
   color: white;
-}
-button>a{
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
 }
 
 @media only screen and (max-width: 768px){

@@ -19,7 +19,7 @@ function App() {
     <div className="container">
       <p id='quote'>{qapi.content}</p>
       <p id='author'>- {qapi.author}</p>
-      <button><a href="">New Quote</a></button>
+      <a href="">New Quote</a>
     </div>
   )
 }
